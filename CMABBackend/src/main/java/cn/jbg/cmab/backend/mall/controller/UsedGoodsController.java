@@ -120,7 +120,7 @@ public class UsedGoodsController {
                 responseUtil.setResultObject(usedGoodsDetail);
             }else{
                 responseUtil.setResultCode(ResponseUtil.FAIL);
-                responseUtil.setResultMsg("该二手商品已不存在");
+                responseUtil.setResultMsg("该二手商品真的已不存在");
             }
         }catch (Exception e){
             e.printStackTrace();
