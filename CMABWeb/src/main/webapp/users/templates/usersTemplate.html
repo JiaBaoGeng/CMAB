@@ -1,0 +1,128 @@
+<section><div class="pt-wrap">
+	<div class="user-wrap">
+
+		<div class="tabs-pill ui-tabs" id="tabs-pill">
+	    	<div id="tabs-pill-first">
+		        <div class="zte-search-condition">
+		            <div class="zte-title-list zte-clear">
+		                <ul class=" titleList zte-clear">
+		                    <li attr='waitHandle' class="zte-title  cur">用户管理<span class="fs14"></span></li>
+		                    <li class="line"></li>
+		                </ul>
+		                <div class="zte-search-wrap zte-clear" style="padding-bottom: 10px;">
+							<div class="dropdown zte-fl">
+								<i id="searchUsersByName" class="zte-iconfont icon-search-a js-searchUsersByName"></i>
+								<input id="searchUsersName" class="form-control" placeholder="请输入用户姓名查询" style="width:200px">
+							</div>
+			 				<button type="button" class="btn btn-primary" id="btn-add-users">
+                    	       <span class="glyphicon zte-iconfont icon-add-a"></span>新增用户
+                	        </button>
+						</div>
+		        	</div>
+		        </div>
+			</div>
+		</div>
+
+		<div class="zte-content">
+			<div class="row zte-row" style="height:10px;">
+
+		    </div>
+		    <div class="row zte-row">
+
+              <div class="meta-table-2">
+    		         <div id="usersListGrid" style="text-align:center;"></div>
+              </div>
+
+
+				<div id="usersListPager" class="text-right"></div>
+			</div>
+		</div>
+
+		<div id = "viewHtml" class="pL15px">
+			<div class="ui-tabs tabs-middle" id="tabs-users">
+				<ul class="ui-tabs-nav">
+					<li>
+						<a href="#tabs-a-users" id="">用户详细信息</a>
+					</li>
+				</ul>
+
+				<div id="tabs-a-users" class="zte-card-container" style="margin-top: 20px;text-align: left;min-height: 200px; height:250px;">
+					<form class="form-horizontal" id="users_info_form" data-ui-role="form">
+					 <div class="row">
+						 <div class="col-md-4">
+							 <div class="form-group">
+								 <label class="zte-form-item-label"><span style="color:red;">*</span>微信昵称</label>
+								 <div class="zte-form-item-content">
+									 <input name="nickName" id="nickName" class="form-control" value="" placeholder="" data-rule="required">
+									 <input id="userId" name="userId" type="hidden">
+								 </div>
+							 </div>
+						 </div>
+						 <div class="col-md-4">
+							<div class="form-group">
+								<label class="zte-form-item-label"><span style="color:red;">*</span>性别</label>
+								<div class="zte-form-item-content">
+									<input name="gender" id="gender" class="form-control" value="" placeholder="" data-rule="required">
+								</div>
+							</div>
+						  </div>
+						 <div class="col-md-4">
+							<div class="form-group">
+								<label class="zte-form-item-label"><span style="color:red;">*</span>城市</label>
+								<div class="zte-form-item-content">
+									<input name="city" id="city" class="form-control" value="" placeholder="">
+								</div>
+							</div>
+						  </div>
+						 <div class="col-md-4">
+							<div class="form-group">
+								<label class="zte-form-item-label"><span style="color:red;"></span>手机号码</label>
+								   <div class="zte-form-item-content">
+									<input name="phoneNumber" id="phoneNumber" class="form-control" value="" placeholder="">
+								   </div>
+							</div>
+						  </div>
+						 <div class="col-md-4">
+							 <div class="form-group">
+								 <label class="zte-form-item-label"><span style="color:red;"></span>邮箱</label>
+								 <div class="zte-form-item-content">
+									 <input name="email" id="email" class="form-control" value="" readOnly="true" placeholder="">
+								 </div>
+							 </div>
+						 </div>
+						 <div class="col-md-4">
+							 <div class="form-group">
+								 <label class="zte-form-item-label"><span style="color:red;"></span>会员等级</label>
+								 <div class="zte-form-item-content">
+									 <input name="memberLevel" id="memberLevel" class="form-control" value="" readonly="true" placeholder="">
+								 </div>
+							 </div>
+						 </div>
+						 <div class="col-md-4">
+							 <div class="form-group">
+								 <label class="zte-form-item-label"><span style="color:red;"></span>会员积分</label>
+								 <div class="zte-form-item-content">
+									 <input name="memberCredit" id="memberCredit" class="form-control" value="" placeholder="">
+								 </div>
+							 </div>
+						 </div>
+						 <div class="col-md-12">
+							 <div class="form-group">
+								 <label class="zte-form-item-label"><span style="color:red;"></span>用户描述</label>
+								 <div class="zte-form-item-content">
+									 <textarea name="userDesc" id="userDesc" class="form-control" value="" placeholder="请输入用户描述"></textarea>
+								 </div>
+							 </div>
+						 </div>
+					 </div>
+					</form>
+					<div class="ui-tabs-panel-tools text-center js-users-btns" style="display:none;">
+					   <button type="text" class="btn btn-primary" id="btn-users-save">保存</button>
+					   <button type="text" class="btn btn-primary" id="btn-users-cancel">取消</button>
+					</div>
+				</div>
+
+				</div>
+		</div>
+	</div>
+</div></section>

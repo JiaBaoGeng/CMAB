@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CMAB.iml" filepath="$PROJECT_DIR$/CMAB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CMABBackend/CMABBackend.iml" filepath="$PROJECT_DIR$/CMABBackend/CMABBackend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CMABCenter/CMABCenter.iml" filepath="$PROJECT_DIR$/CMABCenter/CMABCenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CMABWeb/CMABWeb.iml" filepath="$PROJECT_DIR$/CMABWeb/CMABWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CMABWx/CMABWx.iml" filepath="$PROJECT_DIR$/CMABWx/CMABWx.iml" />
+    </modules>
+  </component>
+</project>

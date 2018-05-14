@@ -1,0 +1,67 @@
+/**add 2017-05-02*********************/
+/**弹出样式**/
+.ui-dialog{
+	border-radius: 10px;
+}
+.ui-dialog .modal-title{
+	margin: 0px;
+	padding:10px 5px;
+}
+.ui-dialog .modal-header button{
+	padding-top: 10px;
+	padding-right: 5px;
+}
+.modal-header{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.modal-footer{
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color:#f5f5f5;
+}
+/**iuput里的搜索按钮**/
+.zte-form-item-content i.zte-iconfont{
+	position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    text-align: center;
+    line-height: 34px;
+    height: 100%;
+    cursor: pointer;
+    font-size: 18px;
+    color: #999;
+}
+/**新建时候下拉**/
+.user-wrap .open > .dropdown-menu {
+    top: 28px;
+    min-width: 88px!important;
+    z-index: 1999;
+}
+/**左右翻页**/
+.slick-prev, .slick-next{
+	width: 1%;
+}
+/**中心总样式**/
+.search-bar{
+	display: inline-block;
+	float: left;
+}
+.topbar-info .topbar-info-user .topbar-info-dropdown-memu .topbar-user-entrance-list a{
+	width: 33%;
+	float: left;
+}
+.ui-workspace-tabs .ui-tabs-main-close{
+	float: right;
+}
+/**表格编辑时候下拉框高度**/
+.jqgrow select{
+	height: 25px!important;
+}
+button, input, select, textarea, div, span, p, b, i, h1, h2, h3, h4, h5, h6,li,ul{
+	font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", SimSun, sans-serif;
+}
+body,html{
+	back
+}

@@ -1,0 +1,112 @@
+<section><div class="pt-wrap">
+	<div class="user-wrap">
+
+		<div class="tabs-pill ui-tabs" id="tabs-pill">
+	    	<div id="tabs-pill-first">
+		        <div class="zte-search-condition">
+		            <div class="zte-title-list zte-clear">
+		                <ul class=" titleList zte-clear">
+		                    <li class="zte-title  cur">商家管理<span class="fs14"></span></li>
+		                    <li class="line"></li>
+		                </ul>
+		                <div class="zte-search-wrap zte-clear" style="padding-bottom: 10px;">
+							<div class="dropdown zte-fl">
+								<i id="searchBusinessByName" class="zte-iconfont icon-search-a"></i>
+								<input id="searchBusinessName" class="form-control" placeholder="请输入商家名称查询" style="width:200px">
+							</div>
+			 				<button type="button" class="btn btn-primary" id="btn-add-business">
+                    	       <span class="glyphicon zte-iconfont icon-add-a"></span>新增商家
+                	        </button>
+						</div>
+		        	</div>
+		        </div>
+			</div>
+		</div>
+
+		<div class="zte-content">
+			<div class="row zte-row" style="height:10px;">
+
+		    </div>
+		    <div class="row zte-row">
+
+              <div class="meta-table-2">
+    		         <div id="businessListGrid" style="text-align:center;"></div>
+              </div>
+
+
+				<div id="businessListPager" class="text-right"></div>
+			</div>
+		</div>
+
+		<div class="pL15px">
+			<div class="ui-tabs tabs-middle" id="tabsBusiness">
+				<ul class="ui-tabs-nav">
+					<li>
+						<a href="#tabs-a-business">商家详细信息</a>
+					</li>
+				</ul>
+
+				<div id="tabs-a-business" class="zte-card-container" style="margin-top: 20px;text-align: left;min-height: 200px; height:250px;">
+					<form class="form-horizontal" id="business_info_form" data-ui-role="form">
+					 <div class="row">
+						 <div class="col-md-4">
+							 <div class="form-group">
+								 <label class="zte-form-item-label"><span style="color:red;">*</span>商家名称</label>
+								 <div class="zte-form-item-content">
+									 <input name="businessName" id="businessName" class="form-control" value="" placeholder="请输入商家名称" data-rule="required">
+									 <input id="businessId" name="businessId" type="hidden">
+								 </div>
+							 </div>
+						 </div>
+						 <div class="col-md-4">
+							<div class="form-group">
+								<label class="zte-form-item-label"><span style="color:red;">*</span>商家地址</label>
+								<div class="zte-form-item-content">
+									<input name="businessAddr" id="businessAddr" class="form-control" value="" placeholder="请输入商品地址" data-rule="required">
+								</div>
+							</div>
+						  </div>
+						 <div class="col-md-4">
+							<div class="form-group">
+								<label class="zte-form-item-label"><span style="color:red;">*</span>负责人</label>
+								<div class="zte-form-item-content">
+									<input name="businessManager" id="businessManager" class="form-control" value="" placeholder="请输入负责人姓名" data-rule="required">
+								</div>
+							</div>
+						  </div>
+						 <div class="col-md-4">
+							<div class="form-group">
+								<label class="zte-form-item-label"><span style="color:red;"></span>手机号码</label>
+								   <div class="zte-form-item-content">
+									<input name="businessPhone" id="businessPhone" class="form-control" value="" placeholder="请输入手机号码">
+								   </div>
+							</div>
+						  </div>
+						 <div class="col-md-4">
+							 <div class="form-group">
+								 <label class="zte-form-item-label"><span style="color:red;"></span>邮箱</label>
+								 <div class="zte-form-item-content">
+									 <input name="businessEmail" id="businessEmail" class="form-control" value="" placeholder="请输入邮箱">
+								 </div>
+							 </div>
+						 </div>
+						 <div class="col-md-12">
+							 <div class="form-group">
+								 <label class="zte-form-item-label"><span style="color:red;"></span>商家描述</label>
+								 <div class="zte-form-item-content">
+									 <textarea name="businessDesc" id="businessDesc" class="form-control" value="" placeholder="请输入商家描述"></textarea>
+								 </div>
+							 </div>
+						 </div>
+					 </div>
+					</form>
+					<div class="ui-tabs-panel-tools text-center js-business-btns" style="display:none;">
+					   <button type="text" class="btn btn-primary" id="btn-business-save">保存</button>
+					   <button type="text" class="btn btn-primary" id="btn-business-cancel">取消</button>
+					</div>
+				</div>
+
+				</div>
+		</div>
+	</div>
+</div></section>

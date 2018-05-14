@@ -1,0 +1,111 @@
+@charset "utf-8";
+/**
+ *  重置浏览器一些默认样式
+ *  不要轻易修改该文件！
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family:"Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",SimSun,sans-serif;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+html {
+	overflow: auto;
+}
+/* ie下页面居中 */
+
+body {
+	text-align: left;
+}
+/* 重置表格元素 */
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 0;
+}
+th{
+	font-weight:normal;
+	text-align: center;
+}
+/* 重置表单元素 */
+
+input,
+textarea,
+button,
+select {
+	background-color: #fff;
+	outline: none;
+}
+address,
+cite,
+dfn,
+em,
+var {
+	font-style: normal;
+}
+ul,
+ol,li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+iframe {
+	border: 0;
+	width: 100%;
+	background-color: #fff;
+}
+legend {
+	color: #000;
+}
+fieldset,
+img {
+	border: 0;
+	vertical-align: middle;
+}
+/* 使元素在 ie 下能继承字体大小 */
+
+button,
+input,
+select,
+textarea,
+div,
+span,
+p,
+b,
+i,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+/* 清除浮动 */
+
+.zte-clear:after {
+	content: '\20';
+	display: block;
+	height: 0;
+	clear: both!important;
+}
+.zte-clear {
+	*zoom: 1;
+}
+
+a.zte-text-link:hover {
+	color: #0085d0;
+	text-decoration: none;
+	border-bottom: 1px solid #0085d0;
+}

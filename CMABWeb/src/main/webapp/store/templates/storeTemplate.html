@@ -1,0 +1,151 @@
+<section><div class="pt-wrap">
+	<div class="user-wrap">
+
+		<div class="tabs-pill ui-tabs" id="tabs-pill">
+	    	<div id="tabs-pill-first">
+		        <div class="zte-search-condition">
+		            <div class="zte-title-list zte-clear">
+		                <ul class="titleList zte-clear">
+		                    <li class="zte-title cur">门店管理<span class="fs14"></span></li>
+		                    <li class="line"></li>
+		                </ul>
+		                <div class="zte-search-wrap zte-clear" style="padding-bottom: 10px;">
+							<div class="dropdown zte-fl">
+								<i id="searchStoreByName" class="zte-iconfont icon-search-a"></i>
+								<input id="searchStoreName" class="form-control" placeholder="请输入门店名称查询" style="width:200px">
+							</div>
+			 				<button type="button" class="btn btn-primary" id="btn-add-store">
+                    	       <span class="glyphicon zte-iconfont icon-add-a"></span>新增门店
+                	        </button>
+						</div>
+		        	</div>
+		        </div>
+			</div>
+		</div>
+
+		<div class="zte-content">
+			<div class="row zte-row" style="height:10px;">
+
+		    </div>
+		    <div class="row zte-row">
+
+              <div class="meta-table-2">
+    		         <div id="storeListGrid" style="text-align:center;"></div>
+              </div>
+
+
+				<div id="storeListPager" class="text-right"></div>
+			</div>
+		</div>
+
+		<div id = "viewHtml" class="pL15px">
+			<div class="ui-tabs tabs-middle" id="tabsStore">
+				<ul class="ui-tabs-nav">
+					<li>
+						<a href="#tabs-a-store">门店详细信息</a>
+					</li>
+				</ul>
+
+				<div id="tabs-a-strore" class="zte-card-container" style="margin-top: 20px;text-align: left;min-height: 200px; height:275px;overflow:auto">
+					<form class="form-horizontal" id="store_info_form" data-ui-role="form">
+					 <div class="row">
+						 <div class="col-md-4">
+							 <div class="form-group">
+								 <label class="zte-form-item-label"><span style="color:red;">*</span>门店名称</label>
+								 <div class="zte-form-item-content">
+									 <input name="storeName" id="storeName" class="form-control" value="" placeholder="请输入门店名称" data-rule="required">
+									 <input id="storeId" name="storeId" type="hidden">
+								 </div>
+							 </div>
+						 </div>
+						 <div class="col-md-4">
+							 <div class="form-group">
+								 <label class="zte-form-item-label"><span style="color:red;">*</span>所属商家</label>
+								 <div class="zte-form-item-content">
+									 <input name="belongName" id="belongName" class="form-control" value="" placeholder="请选择所属商家" data-rule="required">
+									 <input id="storeBelong" name="storeBelong" type="hidden">
+								 </div>
+							 </div>
+						 </div>
+						 <div class="col-md-4">
+							 <div class="form-group">
+								 <label class="zte-form-item-label"><span style="color:red;">*</span>图片展示</label>
+								 <div class="zte-form-item-content">
+									 <input name="showStoreImg" id="showStoreImg" class="form-control" type="button" value='预览图片' placeholder="请点击上传门店展示图画" data-rule="required">
+									 <input id="storeImg" name="storeImg" type="hidden">
+								 </div>
+							 </div>
+						 </div>
+						 <div class="col-md-4">
+							<div class="form-group">
+								<label class="zte-form-item-label"><span style="color:red;">*</span>门店地址</label>
+								<div class="zte-form-item-content">
+									<input name="addr" id="addr" class="form-control" value="" placeholder="请输入门店地址" data-rule="required">
+								</div>
+							</div>
+						  </div>
+						 <div class="col-md-4">
+							<div class="form-group">
+								<label class="zte-form-item-label"><span style="color:red;">*</span>负责人</label>
+								<div class="zte-form-item-content">
+									<input name="storeManager" id="storeManager" class="form-control" value="" placeholder="请输入负责人姓名" data-rule="required">
+								</div>
+							</div>
+						  </div>
+						 <div class="col-md-4">
+							<div class="form-group">
+								<label class="zte-form-item-label"><span style="color:red;"></span>联系方式</label>
+								   <div class="zte-form-item-content">
+									<input name="storePhone" id="storePhone" class="form-control" value="" placeholder="请输入手机号码">
+								   </div>
+							</div>
+						  </div>
+						 <div class="col-md-4">
+							 <div class="form-group">
+								 <label class="zte-form-item-label"><span style="color:red;"></span>营业时间</label>
+								 <div class="zte-form-item-content">
+									 <input name="businessHours" id="businessHours" class="form-control" value="" placeholder="请选择营业时间">
+								 </div>
+							 </div>
+						 </div>
+						 <div class="col-md-4">
+							 <div class="form-group">
+								 <label class="zte-form-item-label"><span style="color:red;"></span>服务类型</label>
+								 <div class="zte-form-item-content">
+									 <input name="serviceType" id="serviceType" class="form-control" value="" placeholder="请选择服务类型">
+								 </div>
+							 </div>
+						 </div>
+						 <div class="col-md-4">
+							 <div class="form-group">
+								 <label class="zte-form-item-label"><span style="color:red;"></span>审核状态</label>
+								 <div class="zte-form-item-content">
+									 <input name="checkoutTag" id="checkoutTag" class="form-control" value="" placeholder="请选择审核状态">
+								 </div>
+							 </div>
+						 </div>
+						 <div class="col-md-12">
+							 <div class="form-group">
+								 <label class="zte-form-item-label"><span style="color:red;"></span>门店描述</label>
+								 <div class="zte-form-item-content">
+									 <textarea name="storeDesc" id="storeDesc" class="form-control" value="" placeholder="请输入门店描述"></textarea>
+								 </div>
+							 </div>
+						 </div>
+					 </div>
+					</form>
+					<div style="display:none">
+						<form id="storeImageForm" class="form-upload" action="/uploadImage" method="post" enctype="multipart/form-data">
+							<!--<input id="image-file-first" type="file" name="itemImage" accept=".png,.gif,.jp2,.jpe,.jpeg,.jpg,.svf"/>-->
+						</form>
+					</div>
+					<div class="ui-tabs-panel-tools text-center js-store-btns" style="display:none;">
+					   <button type="text" class="btn btn-primary" id="btn-store-save">保存</button>
+					   <button type="text" class="btn btn-primary" id="btn-store-cancel">取消</button>
+					</div>
+				</div>
+
+				</div>
+		</div>
+	</div>
+</div></section>

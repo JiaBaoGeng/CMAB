@@ -1,0 +1,877 @@
+/** 按钮  **/
+.btn {
+  border-radius: 4px;
+}
+.btn-default:hover {
+  border-color: #0096E6;
+  color: #0096E6;
+  background-color: #fff;
+}
+.btn-default:focus,
+.btn-default:active {
+  border-color: #006194;
+  color: #006194;
+  background-color: #fff;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #0096E6;
+  border-color: #0096E6;
+}
+.btn-primary:hover {
+  border-color: #39baff;
+  background-color: #39baff;
+  color: #fff;
+}
+.btn-primary:focus,
+.btn-primary:active {
+  border-color: #006194;
+  background-color: #006194;
+  color: #fff;
+}
+.zte-btn-sm {
+  padding: 6px 12px;
+  line-height: 1;
+}
+.zte-btn-xs {
+  padding: 0px 9px;
+  line-height: 1;
+}
+.btn.open {
+  transform: rotate(180deg);
+  transition: 1.3s;
+}
+.zte-btn-group {
+  text-align: center;
+  border-top: 1px solid #dfdfdf;
+  padding-top: 20px;
+}
+.zte-btn-group .btn {
+  min-width: 68px;
+}
+.zte-btn-group .btn + .btn {
+  margin-left: 15px;
+}
+/** 创建活动  **/
+.activity-wrap {
+  padding: 20px;
+  background-color: #fff;
+}
+.activity-wrap .zte-activity-steps {
+  padding-left: 7.1428%;
+  margin-bottom: 10px;
+}
+.activity-wrap .zte-activity-steps .zte-steps-item {
+  width: 14.28571428%;
+}
+.activity-wrap .user-title {
+  border-bottom: 1px #999 dotted;
+  font-size: 18px;
+  color: #333;
+  line-height: 1;
+  padding: 16px 0;
+}
+.activity-wrap .user-selected h2 {
+  font-size: 16px;
+  line-height: 1;
+  padding: 8px;
+}
+.activity-wrap .user-unSelected {
+  position: relative;
+  margin-top: 40px;
+}
+.activity-wrap .user-unSelected .zte-sub-title-text .btn {
+  padding: 0px 9px;
+  position: relative;
+  top: -2px;
+  margin-left: 5px;
+}
+.activity-wrap .user-unSelected .btn.open {
+  transform: rotate(180deg);
+  transition: 1.3s;
+}
+.activity-wrap .user-unSelected .zte-card-container .btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  opacity: 0;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+.activity-wrap .user-unSelected .zte-card-container:hover .btn {
+  opacity: 1;
+  transition: all 1.3s;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+}
+.activity-wrap .user-new {
+  position: absolute;
+  left: 0;
+  margin-top: 20px;
+}
+.activity-wrap .zte-card-container .zte-title {
+  text-align: left;
+  font-size: 18px;
+  color: #333;
+  line-height: 1;
+  padding: 18px 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: HiraginoSansGB;
+}
+.activity-wrap .activity-container-1 {
+  position: relative;
+  padding: 20px 0 10px;
+}
+.activity-wrap .text-detail {
+  margin-left: 16px;
+  font-size: 14px;
+  color: #888;
+}
+.activity-wrap .activity-container-2 {
+  position: relative;
+  padding: 20px 0;
+}
+.activity-wrap .activity-container-2 .zte-form-item-label {
+  width: 120px;
+}
+.activity-wrap .activity-container-2 .zte-form-item-content {
+  margin-left: 120px;
+}
+.activity-wrap .checkbox,
+.activity-wrap .radio {
+  padding-top: 0;
+  margin: 0;
+}
+.activity-wrap .checkbox label,
+.activity-wrap .radio label {
+  padding-left: 0;
+}
+.zte-form-item-label {
+  font-size: 14px;
+  color: #333;
+}
+.zte-form-item-content li {
+  padding: 8px 0;
+}
+/** 营销脚本  **/
+.user-wrap .zte-search-wrap .dropdown {
+  float: left;
+}
+.user-wrap .open > .dropdown-menu {
+  display: block;
+  float: right;
+  right: 0;
+  left: auto;
+  min-width: 100px;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 4px;
+  border-color: #0096E6;
+}
+.user-wrap .open > .btn {
+  background-color: #0096E6;
+  border-color: #0096E6;
+  color: #fff;
+}
+.user-wrap .dropdown-menu > li {
+  float: none;
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+.user-wrap .dropdown-menu > li > a {
+  line-height: 1;
+  padding: 11px 0;
+  font-size: 14px;
+  color: #333;
+}
+.user-wrap .dropdown-menu > li > a:hover {
+  background-color: #0096E6;
+  color: #fff;
+}
+.user-wrap .marketing-script .zte-card-container {
+  padding: 20px 12px;
+}
+.user-wrap .marketing-script .zte-card-container .zte-title {
+  padding: 4px 0 12px;
+}
+.user-wrap .marketing-script .zte-card-container ul {
+  padding: 16px 8px 0;
+}
+.user-wrap .marketing-script .zte-card-container li {
+  font-size: 13px;
+}
+.user-wrap .marketing-script .zte-card-container li.zte-fl {
+  color: #333;
+}
+.user-wrap .img-wrap {
+  position: relative;
+  height: 139px;
+  width: 100%;
+  overflow: hidden;
+}
+.user-wrap .img-wrap img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.user-wrap .img-wrap p {
+  position: relative;
+  top: 0;
+  text-align: left;
+  line-height: 1.5;
+  font-size: 13px;
+  color: #666;
+  padding: 20px 16px;
+}
+.user-wrap .img-wrap.img-top-wrap img {
+  position: relative;
+  height: auto;
+}
+.user-wrap .img-wrap.img-top-wrap p {
+  padding: 8px 4px 0;
+}
+.user-wrap .img-wrap .img-icon {
+  width: 72px;
+  height: 72px;
+  left: 50%;
+  margin-left: -36px;
+  top: 20px;
+}
+.user-wrap .img-wrap .btn {
+  position: absolute;
+  bottom: 16px;
+  border-radius: 100px;
+  background-color: transparent;
+  padding: 2px 10px;
+  text-align: center;
+  display: inline;
+  left: 50%;
+  margin-left: -35px;
+}
+/** 活动管理员——首页  **/
+.main-wrap {
+  position: relative;
+  padding: 20px;
+  background-color: #fff;
+}
+.main-wrap .tabs-pill.ui-tabs > .ui-tabs-nav {
+  text-align: center;
+}
+.main-wrap .tabs-pill.ui-tabs > .ui-tabs-nav li.ui-state-default {
+  display: inline-block;
+  float: none;
+  margin: 0 10px;
+}
+.main-wrap .tabs-pill.ui-tabs > .ui-tabs-nav li.ui-state-default a {
+  color: #333;
+  font-size: 16px;
+  padding: 7px 18px;
+  border-radius: 100px;
+  border-color: transparent;
+}
+.main-wrap .tabs-pill.ui-tabs > .ui-tabs-nav li.ui-state-default a:hover {
+  box-shadow: 0 0;
+  border-color: #0096E6;
+  background-color: #fff;
+  color: #0096E6;
+}
+.main-wrap .tabs-pill.ui-tabs > .ui-tabs-nav li.ui-tabs-active a,
+.main-wrap .tabs-pill.ui-tabs > .ui-tabs-nav li.ui-tabs-active a:hover,
+.main-wrap .tabs-pill.ui-tabs > .ui-tabs-nav li.ui-tabs-active a:focus {
+  background-color: #0096E6;
+  border-color: #0096E6;
+  color: #fff;
+}
+.main-wrap .zte-search-condition .btn-link {
+  margin-top: 15px;
+}
+.main-wrap .zte-card-container img {
+  width: 100%;
+}
+.main-wrap .zte-card-container .zte-title {
+  font-size: 18px;
+}
+.main-wrap .zte-card-container .text-desc {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 8px;
+  height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.main-wrap .zte-card-container li {
+  border-right: 1px solid #dbe2e7;
+  text-align: center;
+}
+.main-wrap .zte-card-container li:last-child {
+  border: 0;
+}
+.main-wrap .zte-card-container li .title {
+  font-size: 14px;
+  color: #666;
+  padding-bottom: 16px;
+}
+.main-wrap .zte-card-container li .num {
+  font-size: 18px;
+  color: #333;
+  padding-bottom: 16px;
+}
+.main-wrap .zte-card-container li .rate {
+  font-size: 14px;
+  color: #666;
+}
+.main-wrap h2 {
+  font-size: 18px;
+  color: #333;
+  line-height: 1;
+  margin: 30px 16px;
+}
+.main-wrap .zte-steps {
+  line-height: 1;
+}
+.main-wrap .zte-steps.row {
+  margin: 0;
+  padding-left: 6%;
+}
+.main-wrap .zte-steps .zte-steps-item {
+  padding: 0;
+}
+.main-wrap .zte-steps .zte-steps-item:not(:first-child) .zte-steps-head {
+  padding: 0;
+  margin: 0;
+}
+.main-wrap .zte-steps .zte-steps-tail {
+  top: 50px;
+  padding: 0;
+}
+.main-wrap .zte-steps .zte-steps-tail i {
+  height: 3px;
+  color: #e0e0e0;
+}
+.main-wrap .zte-steps .zte-steps-head-inner {
+  width: 97px;
+  border: 0;
+  height: 97px;
+  margin: 0;
+}
+.main-wrap .zte-steps .zte-steps-main {
+  font-size: 14px;
+  color: #333;
+  width: 97px;
+  text-align: center;
+}
+.main-wrap .zte-steps .zte-steps-main .zte-steps-title {
+  padding-right: 0;
+  margin-top: 8px;
+  font-size: 14px;
+}
+.main-wrap .main-tab-2 h2 {
+  margin-left: 0;
+}
+.main-wrap .main-tab-2 .list-detail {
+  padding: 0 15px;
+}
+.main-wrap .main-tab-2 .list-detail .row {
+  border-bottom: 1px #666 dotted;
+}
+.main-wrap .main-tab-2 .list-detail li {
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+  text-align: left;
+}
+.main-wrap .main-tab-2 .list-detail li:first-child span {
+  background-color: #0096E6;
+  display: inline-block;
+  padding: 0px 20px;
+  color: #fff;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 5px;
+}
+.main-wrap .zte-panel-group {
+  margin-top: 30px;
+}
+.main-wrap .zte-panel-header {
+  font-size: 16px;
+  background-color: #e5eaef;
+  line-height: 1;
+  padding: 8px 16px;
+}
+.main-wrap .zte-panel-body {
+  padding: 16px 0;
+}
+.main-wrap .list-chart {
+  position: relative;
+  padding: 20px 15px 0;
+}
+.main-wrap .list-chart .col-xs-4 {
+  border: 1px solid #cbd3db;
+  border-radius: 4px;
+}
+.main-wrap .list-chart .col-xs-8 {
+  padding-left: 40px;
+}
+/** 卡片  **/
+.zte-card-container.activity-card {
+  padding: 8px 16px;
+  font-size: 14px;
+  text-align: left;
+  margin: 8px 4px;
+}
+.zte-card-container.activity-card.selected {
+  border-color: #0096E6;
+}
+.zte-card-container.activity-card:hover {
+  cursor: pointer;
+}
+.zte-card-container.activity-card .icon-pass-b {
+  font-size: 20px;
+  color: #0096E6;
+}
+.zte-card-container .zte-btn-remove {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 0 0 0 100px;
+  outline: none;
+  background-color: #dcdfe5;
+  color: #fff;
+  font-size: 18px;
+  border: 0;
+  opacity: 0;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+.zte-card-container .zte-btn-remove:before {
+  position: absolute;
+  right: 6px;
+  top: 5px;
+}
+.zte-card-container .zte-btn-remove:hover {
+  background-color: #f33;
+}
+.zte-card-container:hover .zte-btn-remove {
+  opacity: 1;
+  transition: all 1.3s;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+}
+.zte-card-container.special-card-container {
+  padding: 0;
+  height: 180px;
+}
+.zte-card-container.special-card-container img {
+  width: 100%;
+  height: 180px;
+}
+.zte-card-container .content-header {
+  font-size: 18px;
+  padding: 5px 0;
+}
+.zte-card-container.status-blue .content-header .zte-fr {
+  color: #0096E6;
+}
+.zte-card-container.status-orange .content-header .zte-fr {
+  color: #f93;
+}
+.zte-card-container.status-orange .ui-progressbar-value {
+  background-color: #f93;
+}
+.zte-card-container.status-green .content-header .zte-fr {
+  color: #48cd99;
+}
+.zte-card-container.status-green .ui-progressbar-value {
+  background-color: #48cd99;
+}
+.zte-card-container.status-purple .content-header .zte-fr {
+  color: #bf75de;
+}
+.zte-card-container.status-purple .ui-progressbar-value {
+  background-color: #bf75de;
+}
+.zte-card-container .ui-progressbar {
+  position: relative;
+  border-radius: 100px;
+  background-color: #e5eaef;
+  border: 0;
+  height: 20px;
+  margin-top: 20px;
+}
+.zte-card-container .ui-progressbar .zte-progressbar-total-value {
+  position: absolute;
+  right: 10px;
+  font-size: 12px;
+  line-height: 20px;
+}
+.zte-card-container .ui-progressbar .ui-progressbar-value {
+  position: absolute;
+}
+.zte-card-container .ui-progressbar > .progress-label {
+  top: 1px;
+  float: right;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 12px;
+  font-weight: normal;
+}
+.form-group {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+/**  新建用户群  **/
+.user-wrap form {
+  padding: 20px 0 0;
+}
+.user-wrap .zte-search-wrap .btn-link {
+  margin-top: 15px;
+}
+.user-wrap .radio-list-wrap {
+  padding: 20px 0;
+}
+.user-wrap .radio-list-wrap .radio-list li:first-child {
+  padding-left: 8px;
+}
+.user-wrap .zte-panel-group {
+  background-color: #f1f3f5;
+  padding: 10px 40px 20px;
+  border-style: dotted;
+  border-color: #666;
+  border-width: 1px 0 1px 0;
+  margin-bottom: 20px;
+}
+.user-wrap .zte-panel-group .zte-panel-header {
+  font-size: 18px;
+  padding: 24px 0;
+}
+.user-wrap .zte-panel-group .zte-panel-header em {
+  color: #0096E6;
+}
+.user-wrap .data-table {
+  width: 100%;
+  text-align: center;
+}
+.user-wrap .data-table td {
+  text-align: center;
+  height: 30px;
+  font-size: 16px;
+}
+.user-wrap .data-table .td-1 {
+  color: #fff;
+  background-color: #39baff;
+}
+.user-wrap .data-table .td-2 {
+  color: #fff;
+  background-color: #0096E6;
+}
+.user-wrap .data-table .td-3 {
+  color: #fff;
+  background-color: #006194;
+}
+.user-wrap .data-table .td-4 {
+  color: #fff;
+  background-color: #00324d;
+}
+.user-wrap .zte-list-7 li {
+  font-size: 16px;
+}
+/**  新建脚本  **/
+.zte-panel-header-bg {
+  background-color: #e5eaef;
+  line-height: 1;
+  padding: 8px 16px;
+  font-size: 16px;
+}
+.text-mark-1 {
+  color: #c37f7f;
+  font-size: 14px;
+}
+/**  列表  **/
+.zte-list-7 {
+  white-space: nowrap;
+}
+.zte-list-7 li {
+  display: inline-block;
+  width: 14.2857%;
+}
+/** 单复选框  **/
+.iradio {
+  top: -2px;
+  margin-right: 8px;
+}
+.icheckbox {
+  margin-right: 8px;
+  top: -2px;
+}
+.icheckbox.checked {
+  border: 0;
+}
+.radio label,
+.checkbox label {
+  padding-left: 0;
+}
+/** 新建活动第六步  **/
+.activity-6 {
+  position: relative;
+  border: 1px solid #d5dce4;
+}
+.activity-6 .list-wrap {
+  position: absolute;
+  right: 12px;
+}
+.activity-6 .list-wrap li {
+  float: left;
+  padding: 8px 10px;
+  font-size: 13px;
+  color: #666;
+  line-height: 1;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.activity-6 .list-wrap li.list-item:hover {
+  border-color: #ccc;
+}
+.activity-6 .list-wrap li.line {
+  cursor: default;
+}
+.activity-6 > .row {
+  margin: 0;
+}
+.activity-6 > .row > .text-detail {
+  position: absolute;
+  bottom: 24px;
+  left: 10px;
+}
+.activity-6 > .row > .col-xs-9 {
+  padding: 12px;
+}
+.activity-6 > .row > .col-xs-3 {
+  background-color: #eff4f9;
+  padding: 12px 12px 6px;
+  border-left: 1px solid #d5dce4;
+}
+.activity-6 + .zte-btn-group {
+  border-top: 0;
+}
+.activity-6 .list-group {
+  margin-bottom: 0;
+}
+.activity-6 .list-group-item {
+  padding: 0;
+  margin-bottom: 6px;
+  border-color: #d5dce4;
+  border-radius: 4px;
+}
+.activity-6 .list-group-item > a {
+  font-size: 16px;
+  color: #333;
+  display: block;
+  line-height: 1;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+.activity-6 .list-group-item > a i.zte-iconfont {
+  font-size: 20px;
+  color: #999;
+}
+.activity-6 .list-group-item > a .btn-link {
+  float: right;
+  margin-top: 2px;
+  font-size: 13px;
+  color: #666;
+}
+.activity-6 .list-group-item > a .btn-link:hover {
+  color: #0096E6;
+}
+.activity-6 .list-group-item .list-sub-wrap {
+  border-top: 1px solid #d5dce4;
+}
+.activity-6 .list-group-item .list-sub-group {
+  padding: 8px 16px;
+}
+.activity-6 .list-group-item .list-group-sub-item > a {
+  font-size: 14px;
+  color: #333;
+  padding: 4px 16px;
+  display: block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.activity-6 .list-group-item .list-group-sub-item > a:hover {
+  color: #0096E6;
+  cursor: pointer;
+}
+.activity-6 .list-group-item .list-group-sub-item > a.selected {
+  color: #0096E6;
+  border-color: #0096E6;
+}
+.bss-title {
+  font-size: 16px;
+  line-height: 1;
+  padding: 16px 0;
+}
+/**  新建活动第七步  **/
+.activity-7 .zte-form-item-label {
+  width: 180px;
+}
+.activity-7 .zte-form-item-content {
+  margin-left: 180px;
+}
+/**  标签  **/
+.zte-label-default {
+  border: 1px solid #dcdfe5;
+  color: #666;
+  position: relative;
+  padding: 7px 19px;
+  font-weight: normal;
+}
+.zte-label-default .zte-btn-label {
+  position: absolute;
+  background-color: transparent;
+  border: 0;
+  color: #b8bdc5;
+  font-size: 20px;
+  top: -6px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.zte-label-default .zte-btn-label:hover {
+  color: #f33;
+}
+.zte-label-default:hover {
+  color: #0096E6;
+  border-color: #0096E6;
+}
+.zte-label-default:hover .zte-btn-label {
+  opacity: 1;
+  transition: all 1.3s;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+}
+.zte-label-primary {
+  color: #666;
+  font-size: 16px;
+  font-weight: normal;
+  background-color: transparent;
+  padding: 5px 19px;
+  border-radius: 100px;
+}
+.zte-label-primary:hover {
+  color: #d86363;
+  cursor: pointer;
+}
+.zte-label-primary.selected {
+  background-color: #d86363;
+  color: #fff;
+}
+.label-wrap .radio-list li {
+  min-width: auto;
+}
+/**  上传  **/
+.filelist-item {
+  width: 320px;
+  height: 180px;
+  display: inline-block;
+  position: relative;
+  margin-right: 16px;
+  border: 1px solid #c9d3dd;
+  margin-bottom: 16px;
+}
+.filelist-item img {
+  width: 100%;
+  height: 100%;
+}
+.filelist-item .close {
+  z-index: 10;
+  position: absolute;
+  right: 0px;
+  width: 36px;
+  height: 36px;
+  top: 0;
+  border-radius: 0 0 0px 100px;
+  background-color: #dcdfe5;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.filelist-item .close:hover {
+  background-color: #f33;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.filelist-item .close span {
+  position: absolute;
+  right: 5px;
+  top: 1px;
+  font-size: 24px;
+  color: transparent;
+}
+.filelist-item .info {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  height: 20px;
+  line-height: 20px;
+  text-indent: 5px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  z-index: 10;
+}
+.filelist-item .error {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 20px;
+  background: red;
+  color: white;
+  text-align: center;
+  height: 20px;
+  font-size: 14px;
+  line-height: 23px;
+}
+/**  弹出框  **/
+.bss-panel-table-1 .zte-panel-table .zte-table {
+  table-layout: fixed;
+}
+.bss-panel-table-1 .zte-panel-table .zte-table td,
+.bss-panel-table-1 .zte-panel-table .zte-table th {
+  height: 39px;
+  padding-left: 12px;
+  border-color: #e2e2e2;
+}
+.bss-panel-table-1 .zte-panel-table .zte-table td {
+  padding-right: 20px;
+  width: 35%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bss-panel-table-1 .zte-panel-table .zte-table th {
+  width: 15%;
+  text-align: left;
+  background-color: #eef1f6;
+}
+.bss-panel-table-1 .zte-panel-table-content {
+  margin-top: 0;
+}
+.modal-body .bss-panel-table-1 {
+  margin-bottom: 16px;
+}
+/** 隐藏样式  **/
+.evtDetail{
+	display:none;
+}
+/*# sourceMappingURL=activity.css.map */

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+
+    <properties resource="generatorConfig.properties"/>
+
+    <!-- 设置mysql驱动路径 -->
+    <!--<classPathEntry location="E:\workspace-ide\mysql-connector-java-5.1.27-bin.jar"/>-->
+    <classPathEntry location="D:\java\package\mysql-connector-java-5.1.26.jar"/>
+    <!--<classPathEntry location="D:\Program Files\work\apache-tomcat-6.0.32\lib\ojdbc5.jar"/>-->
+
+    <!-- 此处指定生成针对MyBatis3的DAO -->
+    <context id="DataMaketTables" targetRuntime="MyBatis3">
+
+        <!-- jdbc连接信息  mysql -->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://rm-wz962pa7g51m5l01roo.mysql.rds.aliyuncs.com:3306/cmab"
+                        userId="root" password="Jbg5585391"/>
+
+        <!-- jdbc连接信息  oracle -->
+        <!--<jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver"-->
+                        <!--connectionURL="jdbc:oracle:thin:@10.45.47.203:1521:gxcrm"-->
+                        <!--userId="domp" password="domp"/>-->
+
+        <!-- 生成vo对象 -->
+        <javaModelGenerator targetPackage="cn.jbg.cmab.backend.store.bean" targetProject="${target.java.dir}"/>
+        <!-- 生成用于查询的Example对象  targetProject:mapper映射文件生成的位置 -->
+        <sqlMapGenerator targetPackage="cn.jbg.cmab.backend.store.dao" targetProject="${target.xml.dir}"/>
+        <!-- 生成DAO的类文件以及配置文件 -->
+        <javaClientGenerator targetPackage="cn.jbg.cmab.backend.store.dao" targetProject="${target.java.dir}" type="XMLMAPPER"/>
+        <!-- 想要生成的数据库表,自动化工具会根据该表的结构生成相应的vo对象 -->
+        <table schema="" tableName="store"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+            <generatedKey column="store_id" sqlStatement="MySql" identity="true" ></generatedKey>
+        </table>
+
+
+
+    </context>
+</generatorConfiguration>

@@ -1,0 +1,454 @@
+/**
+ * 全局框架
+ */
+
+/** 色彩 **/
+
+/* 背景颜色 */
+
+/* 主色  */
+
+.pt-wrap .bgColor-3d83db{
+	background-color: #3d83db!important;
+}
+.pt-wrap .bgColor-20a0ff{
+	background-color: #20a0ff!important;
+}
+/* 辅助色  */
+
+.pt-wrap .bgColor-58c4ff{
+	background-color: #58c4ff!important;
+}
+.pt-wrap .bgColor-6d80d7{
+	background-color: #6d80d7!important;
+}
+.pt-wrap .bgColor-32d29d{
+	background-color: #32d29d!important;
+}
+.pt-wrap .bgColor-4dd44d{
+	background-color: #4dd44d!important;
+}
+.pt-wrap .bgColor-f7ac11{
+	background-color: #f7ac11!important;
+}
+.pt-wrap .bgColor-e7535f{
+	background-color: #e7535f!important;
+}
+
+.pt-wrap .bgColor-trpt{
+	background-color: transparent!important;
+}
+
+/* 字体颜色 */
+
+.pt-wrap .color-ccc{
+	color: #ccc!important;
+}
+.pt-wrap .color-333{
+	color: #333!important;
+}
+.pt-wrap .color-666{
+	color: #666!important;
+}
+.pt-wrap .color-999{
+	color: #999!important;
+}
+.pt-wrap .color-ddd{
+	color: #ddd!important;
+}
+.pt-wrap .color-484848{
+	color: #484848!important;
+}
+/* 蓝色 */
+.pt-wrap .color-5cbdf4{
+	color: #5cbdf4!important;
+}
+.pt-wrap .color-0085d0{
+	color: #0085d0!important;
+}
+.pt-wrap .color-70cffd {
+	color: #70cffd!important;
+}
+.pt-wrap .color-1b55ac {
+	color: #1b55ac!important;
+}
+
+/* 绿色 */
+.pt-wrap .color-91c231 {
+	color: #91c231!important;
+}
+.pt-wrap .color-54a63a {
+	color: #54a63a!important;
+}
+
+/* 黄色*/
+.pt-wrap .color-fecb45{
+	color: #fecb45!important;
+}
+
+/* 红色 */
+.pt-wrap .color-f33{
+	color: #f33!important;
+}
+.pt-wrap .color-e84042 {
+	color: #e84042!important;
+}
+.pt-wrap .color-ff3029{
+	color: #ff3029!important;
+}
+
+/* 灰色 */
+.pt-wrap .color-272636{
+	color: #272636!important;
+}
+
+
+/** 图标字体组件 **/
+
+@font-face {
+	font-family: 'iconfont';
+	src: url('fonts/iconfont.eot');
+	/* IE9*/
+	src: url('fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('fonts/iconfont.woff') format('woff'), /* chrome、firefox */
+	url('fonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+	url('fonts/iconfont.svg#iconfont') format('svg');
+	/* iOS 4.1- */
+}
+
+.pt-wrap .zte-iconfont {
+	font-family: "iconfont" !important;
+	font-size:14px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+	display: inline-block;
+	position: relative;
+	line-height: 1;
+}
+
+
+/** 字号组件 **/
+
+.pt-wrap .fs8 {
+	font-size: 8px!important;
+}
+.pt-wrap .fs9 {
+	font-size: 9px!important;
+}
+.pt-wrap .fs10 {
+	font-size: 10px!important;
+}
+.pt-wrap .fs11 {
+	font-size: 11px!important;
+}
+.pt-wrap .fs12 {
+	font-size: 12px!important;
+}
+.pt-wrap .fs13 {
+	font-size: 13px!important;
+}
+.pt-wrap .fs14 {
+	font-size: 14px!important;
+}
+.pt-wrap .fs15 {
+	font-size: 15px!important;
+}
+.pt-wrap .fs16 {
+	font-size: 16px!important;
+}
+.pt-wrap .fs17 {
+	font-size: 17px!important;
+}
+.pt-wrap .fs18 {
+	font-size: 18px!important;
+}
+.pt-wrap .fs19 {
+	font-size: 19px!important;
+}
+.pt-wrap .fs20 {
+	font-size: 20px!important;
+}
+.pt-wrap .fs21 {
+	font-size: 21px!important;
+}
+.pt-wrap .fs22 {
+	font-size: 22px!important;
+}
+.pt-wrap .fs23 {
+	font-size: 23px!important;
+}
+.pt-wrap .fs24 {
+	font-size: 24px!important;
+}
+.pt-wrap .fs25 {
+	font-size: 25px!important;
+}
+.pt-wrap .fs26 {
+	font-size: 26px!important;
+}
+.pt-wrap .fs27 {
+	font-size: 27px!important;
+}
+.pt-wrap .fs28 {
+	font-size: 28px!important;
+}
+.pt-wrap .fs29 {
+	font-size: 29px!important;
+}
+.pt-wrap .fs30 {
+	font-size: 30px!important;
+}
+.pt-wrap .fs31 {
+	font-size: 31px!important;
+}
+.pt-wrap .fs32 {
+	font-size: 32px!important;
+}
+.pt-wrap .fs33 {
+	font-size: 33px!important;
+}
+.pt-wrap .fs34 {
+	font-size: 34px!important;
+}
+.pt-wrap .fs35 {
+	font-size: 35px!important;
+}
+.pt-wrap .fs36 {
+	font-size: 36px!important;
+}
+.pt-wrap .fs37 {
+	font-size: 37px!important;
+}
+.pt-wrap .fs38 {
+	font-size: 38px!important;
+}
+.pt-wrap .fs39 {
+	font-size: 39px!important;
+}
+.pt-wrap .fs40 {
+	font-size: 40px!important;
+}
+.pt-wrap .fs41 {
+	font-size: 41px!important;
+}
+.pt-wrap .fs42 {
+	font-size: 42px!important;
+}
+.pt-wrap .fs43 {
+	font-size: 43px!important;
+}
+.pt-wrap .fs44 {
+	font-size: 44px!important;
+}
+.pt-wrap .fs45 {
+	font-size: 45px!important;
+}
+.pt-wrap .fs46 {
+	font-size: 46px!important;
+}
+.pt-wrap .fs47 {
+	font-size: 47px!important;
+}
+.pt-wrap .fs48 {
+	font-size: 48px!important;
+}
+.pt-wrap .fs49 {
+	font-size: 49px!important;
+}
+.pt-wrap .fs50 {
+	font-size: 50px!important;
+}
+.pt-wrap .fs51 {
+	font-size: 51px!important;
+}
+.pt-wrap .fs52 {
+	font-size: 52px!important;
+}
+.pt-wrap .fs53 {
+	font-size: 53px!important;
+}
+.pt-wrap .fs54 {
+	font-size: 54px!important;
+}
+.pt-wrap .fs55 {
+	font-size: 55px!important;
+}
+.pt-wrap .fs56 {
+	font-size: 56px!important;
+}
+.pt-wrap .fs57 {
+	font-size: 57px!important;
+}
+.pt-wrap .fs58 {
+	font-size: 58px!important;
+}
+.pt-wrap .fs59 {
+	font-size: 59px!important;
+}
+.pt-wrap .fs60 {
+	font-size: 60px!important;
+}
+.pt-wrap .fs65 {
+	font-size: 65px!important;
+}
+.pt-wrap .fs70 {
+	font-size: 70px!important;
+}
+.pt-wrap .fs75 {
+	font-size: 75px!important;
+}
+.pt-wrap .fs80 {
+	font-size: 80px!important;
+}
+.pt-wrap .fs85 {
+	font-size: 85px!important;
+}
+.pt-wrap .fs90 {
+	font-size: 90px!important;
+}
+
+/** 宽度百分比组件 **/
+.pt-wrap .w0 {
+	width: 0%!important;
+}
+.pt-wrap .w5 {
+	width: 5%!important;
+}
+.pt-wrap .w10 {
+	width: 10%!important;
+}
+.pt-wrap .w14 {
+	width: 14%!important;
+}
+.pt-wrap .w15 {
+	width: 15%!important;
+}
+.pt-wrap .w20 {
+	width: 20%!important;
+}
+.pt-wrap .w25 {
+	width: 25%!important;
+}
+.pt-wrap .w30 {
+	width: 30%!important;
+}
+.pt-wrap .w35 {
+	width: 35%!important;
+}
+.pt-wrap .w36 {
+	width: 36%!important;
+}
+.pt-wrap .w40 {
+	width: 40%!important;
+}
+.pt-wrap .w45 {
+	width: 45%!important;
+}
+.pt-wrap .w50 {
+	width: 50%!important;
+}
+.pt-wrap .w55 {
+	width: 55%!important;
+}
+.pt-wrap .w60 {
+	width: 60%!important;
+}
+.pt-wrap .w65 {
+	width: 65%!important;
+}
+.pt-wrap .w70 {
+	width: 70%!important;
+}
+.pt-wrap .w75 {
+	width: 75%!important;
+}
+.pt-wrap .w80 {
+	width: 80%!important;
+}
+.pt-wrap .w85 {
+	width: 85%!important;
+}
+.pt-wrap .w90 {
+	width: 90%!important;
+}
+.pt-wrap .w100 {
+	width: 100%!important;
+}
+
+/** 外边距 **/
+.pt-wrap .mt8{
+	margin-top: 8px;
+}
+.pt-wrap .mt10{
+	margin-top: 10px;;
+}
+.pt-wrap .mt20{
+	margin-top: 20px;
+}
+.pt-wrap .mt30{
+	margin-top: 30px;
+}
+.pt-wrap .mt36{
+	margin-top: 36px;
+}
+
+.pt-wrap .mr10{
+	margin-right: 10px;
+}
+.pt-wrap .mr20{
+	margin-right: 20px;
+}
+.pt-wrap .mr30{
+	margin-right: 30px;
+}
+.pt-wrap .mr40{
+	margin-right: 40px;
+}
+
+.pt-wrap .ml10{
+	margin-left: 10px;
+}
+.pt-wrap .ml20{
+	margin-left: 20px;
+}
+.pt-wrap .ml30{
+	margin-left: 30px;
+}
+.pt-wrap .ml40{
+	margin-left: 40px;
+}
+.pt-wrap .mlr5{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+/** 左右浮动 **/
+.pt-wrap .zte-fr{
+	float: right!important;
+}
+.pt-wrap .zte-fl{
+	float: left!important;
+}
+/* 清除浮动 */
+
+.pt-wrap .zte-clear:after {
+	content: '\20';
+	display: block;
+	height: 0;
+	clear: both!important;
+}
+.pt-wrap .zte-clear {
+	*zoom: 1;
+}
+ul,
+ol,li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+i,em{
+	font-style: normal;
+}
